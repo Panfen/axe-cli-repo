@@ -23,7 +23,7 @@ module.exports = [
     name: 'license',
     type: 'list',
     message: 'choose project license type:',
-    list: ['MIT', 'BSD', 'MPL', 'GPL', 'Apache'],
+    choices: ['MIT', 'BSD', 'MPL', 'GPL', 'Apache'],
     default: 'MIT'
   }
 ]
